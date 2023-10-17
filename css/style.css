@@ -1,0 +1,73 @@
+.nav-top{
+    background-color: rgb(47, 47, 114) !important;
+}
+
+.nav-menu{
+    color: white !important;
+}
+.img-car{
+    max-height: 800px !important;
+}
+.img-top{
+    width: 100%;
+    height: 100%;
+}
+.divisão{
+    background-color: rgb(47, 47, 114) !important;
+}
+.sec-pacotes{
+    margin-left: 15% !important;
+    margin-right: 8% !important;
+}
+.sec-pacotes p{
+    text-align: justify;
+}
+.card{
+    margin-left: 1em !important;
+    margin-top: 1em !important;
+    margin-bottom: 1em;
+    padding: 1em !important;
+}
+footer{
+    text-align: center !important;
+    background-color: rgb(47, 47, 114) !important;
+    color: #fff !important;
+}
+.redes{
+    display: flex !important;
+    justify-content: space-around !important;
+    margin: 20px !important;
+    text-align: center !important;
+}
+.redes img{
+    border: none !important;
+    
+    width: 60px !important;
+
+    margin: 1em !important;
+
+}
+.redes p{
+    color: white !important;
+    display: inline-block !important;
+    align-items: center !important;
+    text-decoration: none !important;
+    justify-content: center !important;
+    font-size: 40px !important;
+
+}
+.mapa{
+    text-align: center !important;
+}
+.mapa h2{
+    color: white !important;
+}
+
+#contato{
+    height: auto !important;
+    margin: 2% 0 1%;
+    padding: 4% 0 0 5%;
+}
+.carousel-caption{
+    background-color: rgba(47, 47, 114, 0.506) !important;
+}

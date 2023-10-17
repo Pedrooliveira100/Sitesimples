@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tocantins</title>
+  <!-- Latest compiled and minified CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-sm nav-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+
+          <img src="img/pngwing.com.png" width="30" height="30" alt="">
+
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link nav-menu" href="#demo">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-menu" href="#pacotes">Pacotes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-menu" href="#contato">Contato</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="text" placeholder="Pesquisar">
+            <button class="btn btn-primary" type="button">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <!-- Carousel -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+      <!-- Indicators/dots -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+      </div>
+
+      <!-- The slideshow/carousel -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/fotor_2023-10-12_9_22_12.png" alt="Palácio Araguaia Governador José Wilson Siqueira Campos"
+            class="d-block w-100 img-car">
+          <div class="carousel-caption">
+            <h3>Palácio Araguaia Governador José Wilson Siqueira Campos</h3>
+            <p>Venha conhecer!</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/parque cesamar.png" class="d-block w-100 img-car">
+          <div class="carousel-caption">
+            <h3>Parque Cesamar</h3>
+            <p>Aproveite para conhecer o Parque Cesamar.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/palmas05.png" alt="Palmas" class="d-block w-100 img-car">
+          <div class="carousel-caption">
+            <h3>Palmas</h3>
+            <p>Capital do Tocantins, uma cidade para todos.</p>
+          </div>
+        </div>
+
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+
+      <!--Divisão-->
+      <div class="container-fluid p-5 text-center text-white divisão">
+        <h2>Conheça o Tocantins</h2>
+      </div>
+
+      <!--pacotes-->
+      <section class="row sec-pacotes" id="pacotes">
+        <div class="card" col-sm3 style="width: 300px">
+          <img class="card-img-top" src="img/jalapao-tocantins-fotor-20231016151941.jpg" width="100%" height="100%"
+            alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title">Jalapão</h4>
+            <p class="text-muted font-arial">O Jalapão é uma região do cerrado brasileiro, no estado do Tocantins, que
+              engloba vários municípios e diferentes áreas de preservação, entre elas o Parque Estadual do Jalapão. A
+              área total do Jalapão é de 34 mil km² e a região é considerada um dos maiores bloco de vegetação nativa
+              remanescente no Brasil, então venha conhecer o Jalapão!</p>
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+
+        <div class="card" col-sm3 style="width: 300px">
+          <img class="card-img-top" src="img/cachoeira-do-formiga.jpg" width="100%" height="100%" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title">Cachoeira do Formiga</h4>
+            <p class="text-muted font-arial">A Cachoeira do Formiga no Jalapão é um dos destinos mais populares entre os amantes do ecoturismo. Localizada no Tocantins, dentro do Parque Estadual do Jalapão, essa é uma parada obrigatória para todos que visitam a região. Ela fica localizada por volta de 30 quilômetros de Mateiros.</p>
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+
+        <div class="card" col-sm3 style="width: 300px">
+          <img class="card-img-top" src="img/pedra-furada.jpg" width="100%" height="100%" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title">Pedra Furada Jalapão</h4>
+            <p class="text-muted font-arial">Localizada a cerca de 35 km de Ponte Alta, no Tocantins, em uma propriedade
+              privada particular, a Pedra Furada é um dos lugares que mais atraem turistas em virtude de ter o mais
+              encantador pôr do sol da região. Os buracos da Pedra Furada permitem que os visitantes observem o
+              maravilhoso entardecer do Jalapão.</p>
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+
+        <div class="card" col-sm3 style="width: 300px">
+          <img class="card-img-top" src="img/lagoa.jpg" width="100%" height="100%" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title">Lagoa do Japonês</h4>
+            <p class="text-muted font-arial">Localizada a cerca de 245 km de Palmas, a Lagoa do Japonês atrai inúmeros
+              turistas com suas águas cristalinas, sua gruta e suas rochas calcárias. Com uma paisagem de tirar o
+              fôlego, a Lagoa do Japonês é comparada ao Caribe e à Tailândia. O local é perfeito para os viajantes que
+              gostam de mergulhos, natureza e calmaria.</p>
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+      </section>
+
+      <!--Divisão-->
+      <div class="container-fluid p-5 text-center text-white divisão">
+        <h2>Fale conosco</h2>
+      </div>
+
+      <!--Fomulário de Contato-->
+      <section id="contato" class="row">
+        <div class="col-6">
+          <h2>Formulário de Contato</h2>
+          <form>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" class="form-control" id="email" placeholder="Digite seu email" required>
+            </div>
+            <div class="form-group">
+              <label for="comment">Comentário:</label>
+              <textarea class="form-control" id="comment" placeholder="Digite seu comentário" rows="5"
+                required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+        </div>
+
+        <!-- Coluna para as redes sociais -->
+        <div class="col-6 row">
+          <div class="col-3 redes">
+            
+            <a href="https://wa.me/5563984381635" target="_blank" rel="noopener noreferrer">
+              <img src="img/whatsapp.png" alt="WhatsApp">
+            </a>
+          </div>
+          <div class="col-3 redes">
+            <a href="https://instagram.com/pedro_nunes_ps/" target="_blank"
+              rel="noopener noreferrer">
+              <img src="img/instagram.png" alt="Instagram">
+            </a>
+          </div>
+
+          <div class="">
+            <h2>Senac</h2>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1962.531911373669!2d-48.29889626767822!3d-10.336777683171489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x933b3179fc2fa813%3A0x9057cf5146f05ace!2sSenac%20Taquaralto!5e0!3m2!1spt-BR!2sbr!4v1697046645699!5m2!1spt-BR!2sbr"
+              width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </div>
+
+    </div>
+    </section>
+
+
+  </main>
+  <div class="container-fluid p-5 text-center text-white divisão"></div>
+  <footer class="fixed-bottom">
+    <h5>&copy; 2023 TocantinsTur. Todos os direitos resrvados a PNW</h5>
+  </footer>
+
+
+</body>
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</html>
